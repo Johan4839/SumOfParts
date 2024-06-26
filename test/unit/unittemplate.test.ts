@@ -97,6 +97,7 @@ describe("This is the test suite for the car park game. Given a car park deck we
         const floor = [2, 0, 0, 0];
         expect(findCarPosition(floor)).toBe(0);
       });
+
       describe("Then we need to determine the direction", () => {
         it("stair case left, car at right", () => {
           const floor = [1, 0, 0, 2];
